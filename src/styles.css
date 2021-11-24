@@ -1,0 +1,167 @@
+.box {
+  display: flex; 
+  flex-direction: column;
+  width: 90%;
+  border: 2px solid rgb(198, 209, 209);
+  padding: 20px;
+   margin-bottom: 10px;
+   border-radius: 15px;
+   position:relative;
+  text-align: justify;
+  
+ }
+ .encabezado {
+   text-align: left;
+   background-color:rgb(14, 103, 109);
+   color:antiquewhite;
+   font-family: Arial Arial, Helvetica, sans-serif;
+   padding: 10px;
+   height:15px;
+ }
+ #file1{
+   padding:6px;
+   border-radius:5px;
+   background-color:white;
+   text-align: center;
+   color:black;
+   width:350px;
+     
+   }
+   #file1:hover {background-color: rgb(230, 222, 222)}
+   
+   #file1:active {
+     background-color: rgb(196, 190, 190);
+     box-shadow: 0 5px #666;
+     transform: translateY(4px);
+   }
+ 
+ 
+ 
+ 
+   .social{
+   display:flex;
+  
+   font-size: 17px;
+   color:antiquewhite;
+   float:right;
+   background-color:rgb(14, 103, 109);
+   margin-right: 10px;
+ }
+ .tw{
+   font-size: 17px;
+   color:antiquewhite;
+   float:right;
+   background-color:rgb(14, 103, 109);
+   margin-right: 10px;
+ }
+ 
+ .name{
+ 
+   float: left;
+ }
+ h1 {
+ 
+ background: linear-gradient(rgb(29, 156, 156),rgb(25, 27, 26));
+ -webkit-background-clip: text;
+ color: transparent;  
+ }
+ p {
+   color: rgb(70, 66, 66);
+   }
+ li {
+   color: rgb(70, 66, 66);
+   display: grid; 
+   grid-auto-columns: 1fr; 
+   grid-template-columns: 0.5fr 1.5fr; 
+   list-style-image: none;
+   margin-left: 20;
+ }
+ .fotodeperfil {
+   width: 100px;
+   height: 100px;
+   margin-top: -100px;
+   margin-left: 25px;
+   border-radius: 50%;
+    
+ }
+ 
+ .fondo {
+   width: 100%;
+   border-radius: 10px 10px 10px 10px;
+   height: 150px;
+ }
+   
+ 
+ .btn-right {
+   font-size: 18px;
+   color:rgb(29, 156, 156);
+   box-shadow: 0 1px #666;
+   float: right;
+ 
+  
+     
+ }
+ .btn-agregar {
+   font-size: 17px;
+   color:rgb(29, 156, 156);
+   box-shadow: 0 1px #666;
+   float: right;
+   
+   
+ }
+ .btn-borrar {
+   font-size: 20px;
+   color:rgb(29, 156, 156);
+   box-shadow: 0 1px #666;
+   float: right;
+   margin-right: 10px;  
+ }
+ 
+ .bt2 {
+   padding:6px;
+   border-radius:5px;
+   background-color:rgb(25, 151, 160);
+   text-align: center;
+   color:white;
+   cursor: pointer;
+   outline: none;
+   width:100px;
+    
+ 
+ }
+ .bt2:hover {background-color: rgb(14, 103, 109)}
+ 
+ .bt2:active {
+   background-color: rgb(7, 50, 53);
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ }
+ .bt3 {
+   padding:6px;
+   border-radius:5px;
+   background-color:white;
+   text-align: center;
+   color:black;
+   width:80px;
+ }
+ .bt3:hover {background-color: rgb(230, 222, 222)}
+ 
+ .bt3:active {
+   background-color: rgb(196, 190, 190);
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ }
+ 
+ ul.listaiconos li {
+   list-style: none;
+   display: block;
+ }
+ ul.listaiconos li::before {
+   content: '';
+   display: inline-block;
+   height: 20px;
+   width: 30px;
+   margin-right: 10px;
+   background-image: url(https://www.econoblog.com.ar/wp-content/uploads/2021/08/FB-Argentina-Programa.jpg);
+   background-size: contain;
+ }
